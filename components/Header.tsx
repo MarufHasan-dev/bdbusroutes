@@ -43,7 +43,9 @@ export default function Header() {
                 onClick={() => setLang(l)}
                 aria-pressed={lang === l}
                 className={`rounded-full px-3 py-1 transition ${
-                  lang === l ? "bg-white text-emerald-900 shadow" : "text-emerald-50 hover:bg-white/10"
+                  lang === l
+                    ? "bg-white text-emerald-900 shadow"
+                    : "text-emerald-50 hover:bg-white/10"
                 }`}
               >
                 {l === "en" ? "EN" : "বাং"}
@@ -61,10 +63,11 @@ export function Footer() {
     <footer className="border-t border-slate-200 bg-white">
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-1 px-4 py-6 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
         <p className="text-[13px] font-semibold text-slate-700">
-          BD Bus Routes <span className="font-normal text-slate-400">· Dhaka city · v1</span>
+          BD Bus Routes{" "}
+          <span className="font-normal text-slate-400">· Dhaka city · v1</span>
         </p>
         <p className="text-[12.5px] text-slate-500">
-          Data in JSON for now — migrating to PostgreSQL (Neon) as routes grow.
+          © 2026 Maruf Hasan. All rights reserved.
         </p>
       </div>
     </footer>
