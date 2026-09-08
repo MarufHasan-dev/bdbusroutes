@@ -9,6 +9,10 @@ const POPULAR: [string, string][] = [
   ["sadarghat", "mohakhali"],
   ["paltan", "airport"],
   ["shyamoli", "sadarghat"],
+  ["jashimuddin-uttara", "motijheel"],
+  ["mirpur-10", "gulistan"],
+  ["mohammadpur", "gulshan-1"],
+  ["farmgate", "jatrabari"],
 ];
 
 export function PopularRoutes() {
@@ -44,6 +48,8 @@ export function PopularRoutes() {
 
 export function BusListPreview() {
   const { lang } = useLang();
+  const previewCount = 6;
+  const preview = buses.slice(0, previewCount);
   return (
     <section aria-labelledby="buses-h" className="mt-8">
       <div className="flex items-center justify-between">
@@ -53,12 +59,15 @@ export function BusListPreview() {
             {buses.length}
           </span>
         </h2>
-        <Link href="/buses" className="text-[13px] font-bold text-emerald-700 hover:underline">
-          {lang === "bn" ? "সব দেখুন →" : "View all →"}
+        <Link
+          href="/buses"
+          className="rounded-lg bg-emerald-700 px-3 py-1.5 text-[13px] font-bold text-white transition hover:bg-emerald-800 active:scale-[0.99]"
+        >
+          {lang === "bn" ? "সব দেখুন" : "View all"} →
         </Link>
       </div>
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
-        {buses.map((b) => (
+        {preview.map((b) => (
           <Link
             key={b.id}
             href={`/buses/${b.id}`}

@@ -16,6 +16,7 @@ export default function BusesListView() {
           <Link
             key={b.id}
             href={`/buses/${b.id}`}
+            prefetch={false}
             className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-emerald-600 hover:shadow-md"
           >
             <p className="text-[16px] font-extrabold text-slate-900">{busLabel(b, lang)}</p>

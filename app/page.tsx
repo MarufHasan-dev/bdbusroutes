@@ -1,9 +1,22 @@
+import dynamic from "next/dynamic";
 import SearchForm from "@/components/SearchForm";
-import Results from "@/components/Results";
 import { PopularRoutes, BusListPreview } from "@/components/HomeExtras";
 import HeroHeading from "@/components/HeroHeading";
 import { resolveStop, stopLabel, buses, stops } from "@/lib/buses";
 import { findDirect, findTransfers } from "@/lib/search";
+
+// Results UI is below the fold and only needed after a search — split it
+// into its own JS chunk so the initial page load stays light.
+const Results = dynamic(() => import("@/components/Results"), {
+  ssr: true,
+  loading: () => (
+    <div aria-hidden className="grid animate-pulse gap-3 md:grid-cols-2">
+      {[0, 1].map((i) => (
+        <div key={i} className="h-44 rounded-2xl bg-slate-200/70" />
+      ))}
+    </div>
+  ),
+});
 
 interface PageProps {
   searchParams: Promise<{ from?: string; to?: string }>;
@@ -87,8 +100,86 @@ export default async function Home({ searchParams }: PageProps) {
         <PopularRoutes />
         <BusListPreview />
         <HowItWorks />
+        <Faq />
       </div>
     </main>
+  );
+}
+
+const FAQS = [
+  {
+    q: "How do I find which bus goes my way?",
+    qBn: "কোন বাসে যাবো, কীভাবে খুঁজবো?",
+    a: "Type your starting stop in From and your destination in To, then press Enter. The site lists every bus that serves that route, with the stops in between highlighted.",
+  },
+  {
+    q: "What if there is no direct bus?",
+    qBn: "সরাসরি বাস না থাকলে কী হবে?",
+    a: "You will see the best 1-change options: take the first bus, get off at the interchange stop, and board the second bus to your destination.",
+  },
+  {
+    q: "Which areas are covered?",
+    qBn: "কোন কোন এলাকা আছে?",
+    a: "Dhaka city, with 156 bus routes and 259 stops so far — from Uttara and Tongi to Sadarghat, Savar to Demra. More routes are added regularly.",
+  },
+  {
+    q: "Is the route information accurate?",
+    qBn: "রুটের তথ্য কি সঠিক?",
+    a: "Routes are community-collected and may change with road conditions. Confirm fare and timing with the bus staff before travelling.",
+  },
+];
+
+function Faq() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+  return (
+    <section aria-labelledby="faq-h" className="mt-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <h2
+        id="faq-h"
+        className="text-[16px] font-extrabold tracking-tight text-emerald-950"
+      >
+        Questions <span className="font-semibold text-slate-500">· প্রশ্নোত্তর</span>
+      </h2>
+      <div className="mt-3 space-y-2">
+        {FAQS.map((f) => (
+          <details
+            key={f.q}
+            className="group rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm"
+          >
+            <summary className="cursor-pointer list-none text-[14.5px] font-bold text-slate-900 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between gap-3">
+                <span>
+                  {f.q}
+                  <span className="block text-[12.5px] font-semibold text-emerald-700">
+                    {f.qBn}
+                  </span>
+                </span>
+                <span
+                  aria-hidden
+                  className="shrink-0 text-emerald-700 transition group-open:rotate-45"
+                >
+                  +
+                </span>
+              </span>
+            </summary>
+            <p className="pt-2 text-[13.5px] leading-relaxed text-slate-600">
+              {f.a}
+            </p>
+          </details>
+        ))}
+      </div>
+    </section>
   );
 }
 

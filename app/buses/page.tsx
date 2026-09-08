@@ -3,8 +3,10 @@ import Link from "next/link";
 import BusesListView from "@/components/BusesListView";
 
 export const metadata: Metadata = {
-  title: "All Dhaka buses",
-  description: "Browse all Dhaka city buses on BD Bus Routes.",
+  title: "All Dhaka buses · সব বাস",
+  description:
+    "Browse all 156 Dhaka city bus routes on BD Bus Routes — Savar Paribahan, BRTC, Azmeri Glory and more, in English and বাংলা।",
+  alternates: { canonical: "/buses" },
 };
 
 export default function BusesPage() {

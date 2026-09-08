@@ -2330,10 +2330,7 @@
       "nameEn": "Borak",
       "nameBn": "বোরাক বাস",
       "area": "Dhaka",
-      "stopIds": [
-        "palashi",
-        "meghna-ghat"
-      ]
+      "stopIds": ["palashi", "meghna-ghat"]
     },
     {
       "id": "bashumoti",
@@ -2875,22 +2872,14 @@
       "nameEn": "Dhakar Chaka",
       "nameBn": "ঢাকার চাকা বাস",
       "area": "Dhaka",
-      "stopIds": [
-        "police-plaza",
-        "gulshan-1",
-        "gulshan-2"
-      ]
+      "stopIds": ["police-plaza", "gulshan-1", "gulshan-2"]
     },
     {
       "id": "dhakar-chaka-2",
       "nameEn": "Dhakar Chaka",
       "nameBn": "ঢাকার চাকা বাস",
       "area": "Dhaka",
-      "stopIds": [
-        "banani",
-        "gulshan-2",
-        "notun-bazar"
-      ]
+      "stopIds": ["banani", "gulshan-2", "notun-bazar"]
     },
     {
       "id": "dipon",
@@ -3238,11 +3227,7 @@
       "nameEn": "Gulshan Chaka",
       "nameBn": "গুলশান চাকা বাস",
       "area": "Dhaka",
-      "stopIds": [
-        "banani",
-        "gulshan-2",
-        "notun-bazar"
-      ]
+      "stopIds": ["banani", "gulshan-2", "notun-bazar"]
     },
     {
       "id": "hazi-transport",
@@ -4678,6 +4663,8 @@
       "area": "Dhaka",
       "stopIds": [
         "sadarghat",
+        "ray-saheb-bazar",
+        "naya-bazar",
         "golap-shah-mazar",
         "gpo",
         "paltan",
