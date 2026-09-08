@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #006a4e;
+  --color-brand-dark: #00513c;
+  --color-accent: #f42a41;
+  --color-paper: #fafaf7;
+}
+
+:root {
+  --background: #fafaf7;
+  --foreground: #101613;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+}
+
+/* Larger tap targets + readable inputs on iOS (16px prevents auto-zoom) */
+input {
+  font-size: 16px;
+}
+
+/* Thin styled scrollbars for dropdowns */
+ul::-webkit-scrollbar {
+  width: 8px;
+}
+ul::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 8px;
+}

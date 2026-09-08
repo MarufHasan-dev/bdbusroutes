@@ -1,0 +1,16 @@
+{
+  "name": "BD Bus Routes",
+  "short_name": "BD Buses",
+  "description": "Find Dhaka city buses from From to To — English & বাংলা।",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF7",
+  "theme_color": "#006A4E",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
