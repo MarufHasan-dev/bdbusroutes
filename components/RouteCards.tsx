@@ -9,28 +9,46 @@ export function DirectCard({ r }: { r: DirectResult }) {
   const { lang } = useLang();
   return (
     <article className="overflow-hidden rounded-2xl border border-emerald-950/10 bg-white shadow-sm transition hover:shadow-md">
-      <div className="flex items-start justify-between gap-3 p-4 pb-3">
-        <div className="min-w-0">
-          <h3 className="truncate text-[16px] font-bold text-slate-900">
-            {busLabel(r.bus, lang)}
-          </h3>
-          <p className="mt-0.5 text-[13px] text-slate-500">
-            {lang === "bn" ? busLabel(r.bus, "en") : busLabel(r.bus, "bn")} · {r.bus.stopIds.length}{" "}
-            {t.stopsCount[lang]}
-          </p>
+      <div className="flex items-start justify-between gap-3 border-b-4 border-emerald-700/90 p-4 pb-3">
+        <div className="flex min-w-0 items-start gap-2.5">
+          <span
+            aria-hidden
+            className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-700 text-xl"
+          >
+            🚌
+          </span>
+          <div className="min-w-0">
+            <h3 className="text-balance text-[19px] font-black leading-snug tracking-tight text-emerald-950">
+              {busLabel(r.bus, lang)}
+            </h3>
+            <p className="mt-0.5 text-[13px] text-slate-500">
+              {lang === "bn" ? busLabel(r.bus, "en") : busLabel(r.bus, "bn")} ·{" "}
+              {r.bus.stopIds.length} {t.stopsCount[lang]}
+            </p>
+          </div>
         </div>
         <span className="shrink-0 rounded-full bg-emerald-700 px-3 py-1 text-[12px] font-bold text-white">
           {lang === "bn" ? "সরাসরি" : "Direct"}
         </span>
       </div>
 
-      <div className="px-4 pb-3">
+      <div className="px-4 py-3">
         <div className="flex items-center gap-2 text-[14px] font-semibold">
-          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-700 text-[11px] text-white">A</span>
-          <span className="truncate text-slate-900">{stopLabel(r.from, lang)}</span>
-          <span aria-hidden className="text-slate-300">→</span>
-          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-rose-600 text-[11px] text-white">B</span>
-          <span className="truncate text-slate-900">{stopLabel(r.to, lang)}</span>
+          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-700 text-[11px] text-white">
+            A
+          </span>
+          <span className="truncate text-slate-900">
+            {stopLabel(r.from, lang)}
+          </span>
+          <span aria-hidden className="text-slate-300">
+            →
+          </span>
+          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-rose-600 text-[11px] text-white">
+            B
+          </span>
+          <span className="truncate text-slate-900">
+            {stopLabel(r.to, lang)}
+          </span>
         </div>
         <p className="mt-1.5 text-[13px] text-slate-600">
           {r.stopsBetween === 0
@@ -83,12 +101,21 @@ export function TransferCard({ r }: { r: TransferResult }) {
   const { lang } = useLang();
   return (
     <article className="overflow-hidden rounded-2xl border border-amber-900/15 bg-white shadow-sm">
-      <div className="flex items-center justify-between gap-3 border-b border-dashed border-slate-200 p-4 pb-3">
-        <p className="text-[14px] font-bold text-slate-900">
-          {busLabel(r.firstBus, lang)}
-          <span className="mx-1.5 font-normal text-slate-400">+</span>
-          {busLabel(r.secondBus, lang)}
-        </p>
+      <div className="flex items-start justify-between gap-3 border-b-4 border-amber-500/90 p-4 pb-3">
+        <div className="min-w-0">
+          <p className="text-balance text-[17px] font-black leading-snug tracking-tight text-slate-900">
+            <span aria-hidden className="mr-1.5">
+              🚌
+            </span>
+            {busLabel(r.firstBus, lang)}
+          </p>
+          <p className="mt-0.5 text-balance text-[17px] font-black leading-snug tracking-tight text-slate-900">
+            <span aria-hidden className="mr-1.5">
+              🚌
+            </span>
+            {busLabel(r.secondBus, lang)}
+          </p>
+        </div>
         <span className="shrink-0 rounded-full bg-amber-500 px-3 py-1 text-[12px] font-bold text-white">
           {lang === "bn" ? "১ বদল" : "1 change"}
         </span>

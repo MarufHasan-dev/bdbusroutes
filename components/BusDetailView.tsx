@@ -12,7 +12,7 @@ export default function BusDetailView({ busId }: { busId: string }) {
 
   return (
     <article className="mt-3 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-      <div className="bg-[#006A4E] p-5 text-white sm:p-6">
+      <div className="bg-brand p-5 text-white sm:p-6">
         <h1 className="text-[20px] font-black leading-tight sm:text-[24px]">
           {busLabel(bus, lang)}
         </h1>
@@ -20,8 +20,12 @@ export default function BusDetailView({ busId }: { busId: string }) {
           {busLabel(bus, lang === "bn" ? "en" : "bn")}
         </p>
         <p className="mt-2 inline-flex flex-wrap items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-[13px] font-semibold">
-          {stopLabel(first, lang)} <span aria-hidden>↔</span> {stopLabel(last, lang)}
-          <span aria-hidden className="opacity-50">·</span> {bus.stopIds.length} {t.stopsCount[lang]}
+          {stopLabel(first, lang)} <span aria-hidden>↔</span>{" "}
+          {stopLabel(last, lang)}
+          <span aria-hidden className="opacity-50">
+            ·
+          </span>{" "}
+          {bus.stopIds.length} {t.stopsCount[lang]}
         </p>
       </div>
       <ol className="p-4 sm:p-5">
@@ -34,7 +38,11 @@ export default function BusDetailView({ busId }: { busId: string }) {
               <div aria-hidden className="flex flex-col items-center">
                 <span
                   className={`flex h-7 w-7 items-center justify-center rounded-full text-[12px] font-bold text-white ${
-                    isFirst ? "bg-emerald-700" : isLast ? "bg-rose-600" : "bg-slate-400"
+                    isFirst
+                      ? "bg-emerald-700"
+                      : isLast
+                        ? "bg-rose-600"
+                        : "bg-slate-400"
                   }`}
                 >
                   {i + 1}
@@ -42,7 +50,9 @@ export default function BusDetailView({ busId }: { busId: string }) {
                 {!isLast && <span className="w-0.5 flex-1 bg-slate-200" />}
               </div>
               <div className={`min-w-0 flex-1 ${isLast ? "" : "pb-4"}`}>
-                <p className="text-[15px] font-bold text-slate-900">{stopLabel(s, lang)}</p>
+                <p className="text-[15px] font-bold text-slate-900">
+                  {stopLabel(s, lang)}
+                </p>
                 <p className="text-[13px] text-slate-500">
                   {lang === "bn" ? s.nameEn : s.nameBn}
                 </p>

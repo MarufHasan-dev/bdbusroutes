@@ -19,7 +19,7 @@ const bengali = Hind_Siliguri({
 
 export const metadata: Metadata = {
   title: {
-    default: "BD Bus Routes — Dhaka Bus Route Search | ঢাকা বাস রুট",
+    default: "BD Bus Routes - Dhaka Bus Route Search | ঢাকা বাস রুট",
     template: "%s · BD Bus Routes",
   },
   description:
