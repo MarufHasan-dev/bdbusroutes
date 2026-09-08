@@ -22,7 +22,8 @@ npm run start
 ## Data (JSON now, Postgres later)
 
 - `data/buses.json` — normalized: unique `stops[]` (stable slug IDs) + `buses[]` with ordered `stopIds`.
-- v1: 2 buses, 55 unique stops (Savar Paribahan 26, Azmeri Glory 33, 4 shared).
+- 156 bus routes, 259 unique stops (Dhaka city).
+- **Regenerate from source:** `data/bus-routes.json` (156 raw entries) → run `node scripts/migrate.mjs`. Rules live in `scripts/migrate.mjs` (stop normalization/dedup of aliases like `Sony CInema Hall` vs `kakali`, split of compound names, disambiguation `-2`/`-3` for same-named variants such as `BRTC`, `Alif`) and Bangla names in `scripts/bangla-stops.json`.
 - All data access goes through `lib/buses.ts` (`getBuses`, `getStops`) and search through `lib/search.ts` (`findDirect`, `findTransfers`) — migrating to PostgreSQL/Neon later means swapping that layer to `stops / buses / bus_stops` tables only.
 
 ## Stack

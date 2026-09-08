@@ -2,7 +2,7 @@ import SearchForm from "@/components/SearchForm";
 import Results from "@/components/Results";
 import { PopularRoutes, BusListPreview } from "@/components/HomeExtras";
 import HeroHeading from "@/components/HeroHeading";
-import { resolveStop, stopLabel } from "@/lib/buses";
+import { resolveStop, stopLabel, buses, stops } from "@/lib/buses";
 import { findDirect, findTransfers } from "@/lib/search";
 
 interface PageProps {
@@ -48,9 +48,11 @@ export default async function Home({ searchParams }: PageProps) {
             />
           </div>
           <div className="mt-3 flex flex-wrap items-center justify-center gap-2 text-[12.5px] font-medium text-emerald-100">
-            <span className="rounded-full bg-white/15 px-3 py-1">55 stops</span>
             <span className="rounded-full bg-white/15 px-3 py-1">
-              2 buses · Dhaka
+              {stops.length} stops
+            </span>
+            <span className="rounded-full bg-white/15 px-3 py-1">
+              {buses.length} buses · Dhaka
             </span>
             <span className="rounded-full bg-white/15 px-3 py-1">EN + বাং</span>
           </div>
