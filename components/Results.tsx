@@ -38,6 +38,14 @@ export default function Results({ status, direct = [], transfers = [] }: Props) 
         >
           {t.browseAll[lang]}
         </Link>
+        <p className="mt-3 text-[13px] text-slate-500">
+          <Link href="/report" className="font-bold text-emerald-700 hover:underline">
+            {t.reportError[lang]}
+          </Link>{" "}
+          {lang === "bn"
+            ? "— কোনো বাস বাদ পড়েছে বলে মনে হলে জানান।"
+            : "— think a bus is missing here? Let us know."}
+        </p>
       </div>
     );
   }
@@ -101,6 +109,14 @@ export default function Results({ status, direct = [], transfers = [] }: Props) 
               {t.browseAll[lang]}
             </Link>
           </div>
+          <p className="mt-3 text-[13px] text-slate-500">
+            <Link href="/report" className="font-bold text-emerald-700 hover:underline">
+              {t.reportError[lang]}
+            </Link>{" "}
+            {lang === "bn"
+              ? "— কোনো বাস বাদ পড়েছে বলে মনে হলে জানান।"
+              : "— think a bus is missing here? Let us know."}
+          </p>
         </div>
       )}
     </div>

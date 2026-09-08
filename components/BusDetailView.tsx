@@ -61,12 +61,18 @@ export default function BusDetailView({ busId }: { busId: string }) {
           );
         })}
       </ol>
-      <div className="border-t border-slate-100 p-4">
+      <div className="space-y-2 border-t border-slate-100 p-4">
         <Link
           href="/"
           className="block rounded-xl bg-emerald-700 py-3 text-center text-[15px] font-bold text-white hover:bg-emerald-800"
         >
           {t.search[lang]} →
+        </Link>
+        <Link
+          href={`/report?bus=${bus.id}`}
+          className="block rounded-xl py-2 text-center text-[13.5px] font-bold text-slate-500 transition hover:bg-slate-100 hover:text-slate-700"
+        >
+          {lang === "bn" ? "⚑ এই রুটে ভুল আছে? জানান" : "⚑ Spotted an error in this route? Report it"}
         </Link>
       </div>
     </article>

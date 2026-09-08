@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
 
 export type Lang = "en" | "bn";
 
@@ -10,15 +10,24 @@ const LangContext = createContext<{ lang: Lang; setLang: (l: Lang) => void }>({
 });
 
 export function LangProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>(() => {
-    if (typeof window === "undefined") return "en";
+  // Always render "en" on the first pass (server AND client) so hydration
+  // matches. The saved preference is applied in an effect after mount.
+  const [lang, setLangState] = useState<Lang>("en");
+
+  // Sync saved preference from localStorage (external system) after hydration.
+  useEffect(() => {
     try {
       const saved = window.localStorage.getItem("bdbr-lang");
-      return saved === "bn" ? "bn" : "en";
+      if (saved === "bn") {
+        // Intentional post-hydration sync from an external system (localStorage).
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setLangState("bn");
+        document.documentElement.lang = "bn";
+      }
     } catch {
-      return "en";
+      // private mode etc. — stay on English
     }
-  });
+  }, []);
 
   const setLang = useCallback((l: Lang) => {
     setLangState(l);
@@ -69,4 +78,10 @@ export const t = {
   popular: { en: "Try popular routes", bn: "জনপ্রিয় রুট চেষ্টা করুন" },
   stopsCount: { en: "stops", bn: "টি স্টপ" },
   home: { en: "Home", bn: "হোম" },
+  report: { en: "Report", bn: "রিপোর্ট" },
+  reportError: { en: "Report an error", bn: "ভুল জানান" },
+  reportBlurb: {
+    en: "Spotted a wrong stop, missing bus, or incorrect route? Tell us and we'll fix it.",
+    bn: "ভুল স্টপ, বাদ পড়া বাস বা ভুল রুট চোখে পড়েছে? জানান, আমরা ঠিক করে দেবো।",
+  },
 } as const;

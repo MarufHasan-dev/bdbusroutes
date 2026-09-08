@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import Autocomplete from "./Autocomplete";
-import { getStop } from "@/lib/buses";
+import { getStop, type Stop } from "@/lib/buses";
 import { t, useLang } from "./LangContext";
 
 interface Props {
@@ -27,6 +27,21 @@ export default function SearchForm({ initialFrom = "", initialTo = "" }: Props) 
     toStop ? (lang === "bn" ? toStop.nameBn : toStop.nameEn) : ""
   );
   const [error, setError] = useState<string | null>(null);
+
+  // When a stop is picked, always display its name in the active language.
+  // Free-typed text passes through untouched. Pure derivation (no effects),
+  // so toggling EN/বাং instantly re-renders picked stops with no mismatch.
+  const shownText = (pickedId: string, text: string): string => {
+    if (!pickedId) return text;
+    const picked: Stop | undefined = getStop(pickedId);
+    if (!picked) return text;
+    if (text === picked.nameEn || text === picked.nameBn) {
+      return lang === "bn" ? picked.nameBn : picked.nameEn;
+    }
+    return text;
+  };
+  const shownFrom = shownText(fromId, fromText);
+  const shownTo = shownText(toId, toText);
 
   const canSubmit = useMemo(() => fromText.trim() !== "" && toText.trim() !== "", [fromText, toText]);
 
@@ -69,7 +84,7 @@ export default function SearchForm({ initialFrom = "", initialTo = "" }: Props) 
           label={t.from[lang]}
           placeholder={t.fromPlaceholder[lang]}
           value={fromId}
-          displayValue={fromText}
+          displayValue={shownFrom}
           icon="from"
           onPick={(s, text) => {
             setFromId(s ? s.id : "");
@@ -93,7 +108,7 @@ export default function SearchForm({ initialFrom = "", initialTo = "" }: Props) 
           label={t.to[lang]}
           placeholder={t.toPlaceholder[lang]}
           value={toId}
-          displayValue={toText}
+          displayValue={shownTo}
           icon="to"
           onPick={(s, text) => {
             setToId(s ? s.id : "");

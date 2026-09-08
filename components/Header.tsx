@@ -31,6 +31,12 @@ export default function Header() {
           >
             {t.allBuses[lang]}
           </Link>
+          <Link
+            href="/report"
+            className="hidden rounded-full px-3 py-1.5 text-[13px] font-bold text-emerald-50 transition hover:bg-white/15 sm:block"
+          >
+            {t.report[lang]}
+          </Link>
           <div
             role="group"
             aria-label={lang === "bn" ? "ভাষা" : "Language"}
@@ -59,16 +65,39 @@ export default function Header() {
 }
 
 export function Footer() {
+  const { lang } = useLang();
   return (
     <footer className="border-t border-slate-200 bg-white">
-      <div className="mx-auto flex w-full max-w-5xl flex-col gap-1 px-4 py-6 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
-        <p className="text-[13px] font-semibold text-slate-700">
-          BD Bus Routes{" "}
-          <span className="font-normal text-slate-400">· Dhaka city · v1</span>
-        </p>
-        <p className="text-[12.5px] text-slate-500">
-          © 2026 Maruf Hasan. All rights reserved.
-        </p>
+      <div className="mx-auto flex w-full max-w-5xl flex-col gap-3 px-4 py-6 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
+        <div>
+          <p className="text-[13px] font-semibold text-slate-700">
+            BD Bus Routes{" "}
+            <span className="font-normal text-slate-400">
+              · {lang === "bn" ? "ঢাকা শহর" : "Dhaka city"}
+            </span>
+          </p>
+          <p className="mt-1 text-[12.5px] text-slate-500">
+            © 2026 Maruf Hasan.{" "}
+            {lang === "bn" ? "সর্বস্বত্ব সংরক্ষিত।" : "All rights reserved."}
+          </p>
+        </div>
+        <nav
+          aria-label={lang === "bn" ? "ফুটার" : "Footer"}
+          className="flex items-center justify-center gap-2 text-[13px] font-bold"
+        >
+          <Link
+            href="/buses"
+            className="rounded-full bg-slate-100 px-3.5 py-1.5 text-slate-700 transition hover:bg-slate-200"
+          >
+            {t.allBuses[lang]}
+          </Link>
+          <Link
+            href="/report"
+            className="rounded-full bg-emerald-700 px-3.5 py-1.5 text-white transition hover:bg-emerald-800"
+          >
+            {t.reportError[lang]}
+          </Link>
+        </nav>
       </div>
     </footer>
   );
