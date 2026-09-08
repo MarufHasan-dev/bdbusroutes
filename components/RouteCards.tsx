@@ -8,7 +8,7 @@ import { t, useLang } from "./LangContext";
 export function DirectCard({ r }: { r: DirectResult }) {
   const { lang } = useLang();
   return (
-    <article className="overflow-hidden rounded-2xl border border-emerald-950/10 bg-white shadow-sm transition hover:shadow-md">
+    <article className="animate-rise overflow-hidden rounded-2xl border border-emerald-950/10 bg-white shadow-sm transition hover:shadow-md">
       <div className="flex items-start justify-between gap-3 border-b-4 border-emerald-700/90 p-4 pb-3">
         <div className="flex min-w-0 items-start gap-2.5">
           <span
@@ -100,7 +100,7 @@ export function DirectCard({ r }: { r: DirectResult }) {
 export function TransferCard({ r }: { r: TransferResult }) {
   const { lang } = useLang();
   return (
-    <article className="overflow-hidden rounded-2xl border border-amber-900/15 bg-white shadow-sm">
+    <article className="animate-rise overflow-hidden rounded-2xl border border-amber-900/15 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-3 border-b-4 border-amber-500/90 p-4 pb-3">
         <div className="min-w-0">
           <p className="text-balance text-[17px] font-black leading-snug tracking-tight text-slate-900">

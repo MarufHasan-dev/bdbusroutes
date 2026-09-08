@@ -14,6 +14,22 @@ interface Props {
   icon: "from" | "to";
 }
 
+/** Bolds the typed substring inside a suggestion (EN case-insensitive, BN raw). */
+function Highlight({ text, query }: { text: string; query: string }) {
+  if (!query) return <>{text}</>;
+  const i = text.toLowerCase().indexOf(query.toLowerCase());
+  if (i === -1) return <>{text}</>;
+  return (
+    <>
+      {text.slice(0, i)}
+      <mark className="bg-transparent font-extrabold text-emerald-800">
+        {text.slice(i, i + query.length)}
+      </mark>
+      {text.slice(i + query.length)}
+    </>
+  );
+}
+
 export default function Autocomplete({ label, placeholder, value, displayValue, onPick, icon }: Props) {
   const { lang } = useLang();
   const [open, setOpen] = useState(false);
@@ -35,6 +51,7 @@ export default function Autocomplete({ label, placeholder, value, displayValue, 
     setOpen(false);
   };
 
+  const query = displayValue.trim();
   return (
     <div ref={boxRef} className="relative">
       <label
@@ -93,7 +110,7 @@ export default function Autocomplete({ label, placeholder, value, displayValue, 
         <ul
           id={`${listId}-listbox`}
           role="listbox"
-          className="absolute inset-x-0 top-full z-30 mt-2 max-h-72 overflow-auto overscroll-contain rounded-xl border border-slate-200 bg-white p-1.5 shadow-xl shadow-emerald-950/10"
+          className="absolute inset-x-0 top-full z-30 mt-2 max-h-72 animate-pop-in overflow-auto overscroll-contain rounded-xl border border-slate-200 bg-white p-1.5 shadow-xl shadow-emerald-950/10"
         >
           {results.map((s, i) => (
             <li key={s.id} role="option" aria-selected={s.id === value}>
@@ -110,10 +127,10 @@ export default function Autocomplete({ label, placeholder, value, displayValue, 
               >
                 <span className="min-w-0">
                   <span className="block truncate text-[15px] font-semibold text-slate-900">
-                    {stopLabel(s, lang)}
+                    <Highlight text={stopLabel(s, lang)} query={query} />
                   </span>
                   <span className="block truncate text-[13px] text-slate-500">
-                    {stopSubLabel(s, lang)}
+                    <Highlight text={stopSubLabel(s, lang)} query={query} />
                   </span>
                 </span>
                 {s.id === value && (

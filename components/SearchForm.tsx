@@ -77,7 +77,7 @@ export default function SearchForm({ initialFrom = "", initialTo = "" }: Props) 
       onSubmit={submit}
       role="search"
       aria-label={lang === "bn" ? "বাস রুট খুঁজুন" : "Search bus routes"}
-      className="w-full rounded-2xl border border-emerald-950/10 bg-white/95 p-4 shadow-xl shadow-emerald-950/10 backdrop-blur sm:p-5"
+      className="relative z-10 w-full rounded-2xl border border-emerald-950/10 bg-white/95 p-4 shadow-xl shadow-emerald-950/10 backdrop-blur sm:p-5"
     >
       <div className="grid gap-3">
         <Autocomplete

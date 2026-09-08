@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+  --font-sans:
+    var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
   --color-brand: #006a4e;
   --color-brand-dark: #00513c;
   --color-accent: #f42a41;
@@ -20,7 +21,8 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+  font-family:
+    var(--font-inter), var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
   -webkit-tap-highlight-color: transparent;
   text-rendering: optimizeLegibility;
 }
@@ -37,4 +39,86 @@ ul::-webkit-scrollbar {
 ul::-webkit-scrollbar-thumb {
   background: #cbd5e1;
   border-radius: 8px;
+}
+
+::selection {
+  background: #006a4e;
+  color: #ffffff;
+}
+
+/* Gentle entrance for results + cards */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: rise 0.45s ease-out both;
+}
+
+/* Dropdown pop */
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in 0.16s ease-out both;
+  transform-origin: top center;
+}
+
+/* Hero popular-routes rail: soft edge fades (auto-drift + swipe handled in JS) */
+.chips-mask {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+
+/* Hero chip rail drift: 3 identical copies, one set-width per loop. */
+@keyframes chips-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.3333%);
+  }
+}
+
+.animate-chips {
+  animation: chips-scroll 60s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-rise,
+  .animate-pop-in,
+  .animate-chips {
+    animation: none;
+  }
 }
