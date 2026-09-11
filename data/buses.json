@@ -3,7 +3,7 @@
     {
       "id": "300-feet",
       "nameEn": "300 Feet",
-      "nameBn": "৩০০ ফুট"
+      "nameBn": "৩০০ ফিট"
     },
     {
       "id": "abdullahpur",
@@ -108,7 +108,7 @@
     {
       "id": "bakshi-bazar",
       "nameEn": "Bakshi Bazar",
-      "nameBn": "বক্সী বাজার"
+      "nameBn": "বকশী বাজার"
     },
     {
       "id": "balughat",
@@ -123,7 +123,7 @@
     {
       "id": "banasree",
       "nameEn": "Banasree",
-      "nameBn": "বনস্রী"
+      "nameBn": "বনশ্রী"
     },
     {
       "id": "bangla-college",
@@ -142,8 +142,8 @@
     },
     {
       "id": "baromi",
-      "nameEn": "Baromi",
-      "nameBn": "বারোমী"
+      "nameEn": "Barmi",
+      "nameBn": "বরমী"
     },
     {
       "id": "bashabo",
@@ -153,7 +153,7 @@
     {
       "id": "bashtola",
       "nameEn": "Bashtola",
-      "nameBn": "বাশতলা"
+      "nameBn": "বাঁশতলা"
     },
     {
       "id": "bashundhara",
@@ -163,12 +163,12 @@
     {
       "id": "bata-signal",
       "nameEn": "Bata Signal",
-      "nameBn": "বাটা সিগনাল"
+      "nameBn": "বাটা সিগন্যাল"
     },
     {
       "id": "beribadh",
       "nameEn": "Beribadh",
-      "nameBn": "বেরিবাড়"
+      "nameBn": "বেড়িবাঁধ"
     },
     {
       "id": "bijoy-sarani",
@@ -198,7 +198,7 @@
     {
       "id": "chairman-bari",
       "nameEn": "Chairman Bari",
-      "nameBn": "চেয়ারম্যান বাড়ী"
+      "nameBn": "চেয়ারম্যান বাড়ি"
     },
     {
       "id": "chandra",
@@ -208,12 +208,12 @@
     {
       "id": "chankhar-pul",
       "nameEn": "Chankhar Pul",
-      "nameBn": "চাঁকহার পুল"
+      "nameBn": "চানখার পুল"
     },
     {
       "id": "chashara",
       "nameEn": "Chashara",
-      "nameBn": "চাসারা"
+      "nameBn": "চাষাড়া"
     },
     {
       "id": "chiriyakhana",
@@ -248,12 +248,12 @@
     {
       "id": "darussalam",
       "nameEn": "Darussalam",
-      "nameBn": "দারুস্সালাম"
+      "nameBn": "দারুস সালাম"
     },
     {
       "id": "dayaganj",
       "nameEn": "Dayaganj",
-      "nameBn": "দায়াগঞ্জ"
+      "nameBn": "দয়াগঞ্জ"
     },
     {
       "id": "demra-staff-quarter",
@@ -293,12 +293,12 @@
     {
       "id": "dholairpar",
       "nameEn": "Dholairpar",
-      "nameBn": "ধলাইরপার"
+      "nameBn": "ধোলাইরপাড়"
     },
     {
       "id": "dhour",
       "nameEn": "Dhour",
-      "nameBn": "ঘোর"
+      "nameBn": "ঢাউর"
     },
     {
       "id": "dhupkhola",
@@ -308,7 +308,7 @@
     {
       "id": "diabari",
       "nameEn": "Diabari",
-      "nameBn": "দিয়াবারী"
+      "nameBn": "দিয়াবাড়ী"
     },
     {
       "id": "duaripara",
@@ -348,12 +348,12 @@
     {
       "id": "gabtoli",
       "nameEn": "Gabtoli",
-      "nameBn": "গাবতলি"
+      "nameBn": "গাবতলী"
     },
     {
       "id": "gandaria",
       "nameEn": "Gandaria",
-      "nameBn": "গান্ধারিয়া"
+      "nameBn": "গেন্ডারিয়া"
     },
     {
       "id": "gazipur-bypass",
@@ -428,7 +428,7 @@
     {
       "id": "high-court",
       "nameEn": "High Court",
-      "nameBn": "উচ্চ আদালত"
+      "nameBn": "হাইকোর্ট"
     },
     {
       "id": "house-building",
@@ -443,7 +443,7 @@
     {
       "id": "ittefaq-moor",
       "nameEn": "Ittefaq Moor",
-      "nameBn": "ইত্তফাক মোড়"
+      "nameBn": "ইত্তেফাক মোড়"
     },
     {
       "id": "jahangir-gate",
@@ -452,13 +452,13 @@
     },
     {
       "id": "jakir-hossen-road",
-      "nameEn": "Jakir Hossen Road",
+      "nameEn": "Jakir Hossain Road",
       "nameBn": "জাকির হোসেন রোড"
     },
     {
       "id": "jalkuri",
       "nameEn": "Jalkuri",
-      "nameBn": "জালকুড়ি"
+      "nameBn": "জলকুড়ি"
     },
     {
       "id": "jamgora",
@@ -483,7 +483,7 @@
     {
       "id": "jarun",
       "nameEn": "Jarun",
-      "nameBn": "জারুন"
+      "nameBn": "যারুন"
     },
     {
       "id": "jashimuddin-uttara",
@@ -498,7 +498,7 @@
     {
       "id": "jigatola",
       "nameEn": "Jigatola",
-      "nameBn": "জিগাটোলা"
+      "nameBn": "জিগাতলা"
     },
     {
       "id": "joydebpur",
@@ -513,7 +513,7 @@
     {
       "id": "kachukhet",
       "nameEn": "Kachukhet",
-      "nameBn": "কাচুখেত"
+      "nameBn": "কচুক্ষেত"
     },
     {
       "id": "kadamtali",
@@ -522,7 +522,7 @@
     },
     {
       "id": "kajipara",
-      "nameEn": "Kajipara",
+      "nameEn": "Kazipara",
       "nameBn": "কাজীপাড়া"
     },
     {
@@ -578,12 +578,12 @@
     {
       "id": "kanchpur",
       "nameEn": "Kanchpur",
-      "nameBn": "কাঞ্চপুর"
+      "nameBn": "কাঁচপুর"
     },
     {
       "id": "karwan-bazar",
-      "nameEn": "Karwan Bazar",
-      "nameBn": "কাওরান বাজার"
+      "nameEn": "Kawran Bazar",
+      "nameBn": "কারওয়ান বাজার"
     },
     {
       "id": "kashimpur",
@@ -598,7 +598,7 @@
     {
       "id": "kawran-bazar",
       "nameEn": "Kawran Bazar",
-      "nameBn": "কাওরান বাজার"
+      "nameBn": "কারওয়ান বাজার"
     },
     {
       "id": "kazipara",
@@ -618,7 +618,7 @@
     {
       "id": "khamar-bari",
       "nameEn": "Khamar Bari",
-      "nameBn": "খামার বাড়ী"
+      "nameBn": "খামার বাড়ি"
     },
     {
       "id": "khilgaon",
@@ -633,7 +633,7 @@
     {
       "id": "khilgaon-khidma-hospital",
       "nameEn": "Khilgaon Khidma Hospital",
-      "nameBn": "খিলগাঁও খিদমা হাসপাতাল"
+      "nameBn": "খিলগাঁও খিদমাহ হাসপাতাল"
     },
     {
       "id": "khilkhet",
@@ -653,7 +653,7 @@
     {
       "id": "kuchimura",
       "nameEn": "Kuchimura",
-      "nameBn": "কুচিমরা"
+      "nameBn": "কুচিমুড়া"
     },
     {
       "id": "kuril-bishwa-road",
@@ -668,7 +668,7 @@
     {
       "id": "madanpur",
       "nameEn": "Madanpur",
-      "nameBn": "মাদানপুর"
+      "nameBn": "মদনপুর"
     },
     {
       "id": "madhya-badda",
@@ -698,7 +698,7 @@
     {
       "id": "manik-nagar",
       "nameEn": "Manik Nagar",
-      "nameBn": "মাণিক নগর"
+      "nameBn": "মানিক নগর"
     },
     {
       "id": "manikganj",
@@ -822,7 +822,7 @@
     },
     {
       "id": "motsho-bhaban",
-      "nameEn": "Motsho Bhaban",
+      "nameEn": "Matsya Bhaban",
       "nameBn": "মৎস্য ভবন"
     },
     {
@@ -852,7 +852,7 @@
     },
     {
       "id": "narshinghapur",
-      "nameEn": "Narshinghapur",
+      "nameEn": "Narsinghapur",
       "nameBn": "নরসিংহপুর"
     },
     {
@@ -883,7 +883,7 @@
     {
       "id": "nimtola",
       "nameEn": "Nimtola",
-      "nameBn": "নিমতোলা"
+      "nameBn": "নিমতলা"
     },
     {
       "id": "nobinagar",
@@ -927,7 +927,7 @@
     },
     {
       "id": "panthopoth",
-      "nameEn": "Panthopoth",
+      "nameEn": "Panthapath",
       "nameBn": "পান্থপথ"
     },
     {
@@ -1037,12 +1037,12 @@
     },
     {
       "id": "sat-rasta",
-      "nameEn": "Sat rasta",
+      "nameEn": "Sat Rasta",
       "nameBn": "সাত রাস্তা"
     },
     {
       "id": "satrasta",
-      "nameEn": "Satrasta",
+      "nameEn": "Sat Rasta",
       "nameBn": "সাত রাস্তা"
     },
     {
@@ -1068,7 +1068,7 @@
     {
       "id": "science-lab",
       "nameEn": "Science Lab",
-      "nameBn": "বিজ্ঞান গবেষণা প্রযুক্তি"
+      "nameBn": "সায়েন্স ল্যাব"
     },
     {
       "id": "shahbag",
@@ -1138,7 +1138,7 @@
     {
       "id": "shonir-akhra",
       "nameEn": "Shonir Akhra",
-      "nameBn": "সোনির আখরা"
+      "nameBn": "শনির আখড়া"
     },
     {
       "id": "showari-ghat",
@@ -1148,7 +1148,7 @@
     {
       "id": "shukrabad",
       "nameEn": "Shukrabad",
-      "nameBn": "শুকরাবাদ"
+      "nameBn": "শুক্রাবাদ"
     },
     {
       "id": "shyamoli",
@@ -1163,7 +1163,7 @@
     {
       "id": "signal",
       "nameEn": "Signal",
-      "nameBn": "সিগনাল"
+      "nameBn": "সিগন্যাল"
     },
     {
       "id": "sikder-medical-college",
@@ -1178,7 +1178,7 @@
     {
       "id": "south-banasree",
       "nameEn": "South Banasree",
-      "nameBn": "দক্ষিণ বনস্রী"
+      "nameBn": "দক্ষিণ বনশ্রী"
     },
     {
       "id": "sreepur",
@@ -1202,7 +1202,7 @@
     },
     {
       "id": "sura-bari",
-      "nameEn": "Sura Bari",
+      "nameEn": "Surabari",
       "nameBn": "সুরাবাড়ী"
     },
     {
@@ -1258,7 +1258,7 @@
     {
       "id": "vashantek",
       "nameEn": "Vashantek",
-      "nameBn": "ভাশনটেক"
+      "nameBn": "ভাষানটেক"
     },
     {
       "id": "victoria-park",
@@ -1294,6 +1294,76 @@
       "id": "zirani-bazar",
       "nameEn": "Zirani Bazar",
       "nameBn": "জিরানী বাজার"
+    },
+    {
+      "id": "bot-tola",
+      "nameEn": "Bot Tola",
+      "nameBn": "বটতলা"
+    },
+    {
+      "id": "rainkhola",
+      "nameEn": "Rainkhola",
+      "nameBn": "রাইনখোলা"
+    },
+    {
+      "id": "chalantika-mor",
+      "nameEn": "Chalantika Mor",
+      "nameBn": "চালন্তিকা মোড়"
+    },
+    {
+      "id": "mirpur-6",
+      "nameEn": "Mirpur 6",
+      "nameBn": "মিরপুর ৬"
+    },
+    {
+      "id": "parbat",
+      "nameEn": "Parbat",
+      "nameBn": "পর্বত"
+    },
+    {
+      "id": "modhumoti",
+      "nameEn": "Modhumoti",
+      "nameBn": "মধুমতি"
+    },
+    {
+      "id": "boliarpur",
+      "nameEn": "Boliarpur",
+      "nameBn": "বোলিয়ারপুর"
+    },
+    {
+      "id": "bank-town",
+      "nameEn": "Bank Town",
+      "nameBn": "ব্যাংক টাউন"
+    },
+    {
+      "id": "kawlar",
+      "nameEn": "Kawlar",
+      "nameBn": "কাওলার"
+    },
+    {
+      "id": "elevated-express-way",
+      "nameEn": "Elevated Express Way",
+      "nameBn": "এলিভেটেড এক্সপ্রেসওয়ে"
+    },
+    {
+      "id": "tejgaon-college-farmgate",
+      "nameEn": "Tejgaon College (Farmgate)",
+      "nameBn": "তেজগাঁও কলেজ (ফার্মগেট)"
+    },
+    {
+      "id": "khejur-bagan",
+      "nameEn": "Khejur Bagan",
+      "nameBn": "খেজুর বাগান"
+    },
+    {
+      "id": "songsod-bhaban",
+      "nameEn": "Songsod Bhaban",
+      "nameBn": "সংসদ ভবন"
+    },
+    {
+      "id": "garrison-cantonment",
+      "nameEn": "Garrison (Cantonment)",
+      "nameBn": "গ্যারিসন (ক্যান্টনমেন্ট)"
     }
   ],
   "buses": [
@@ -1362,8 +1432,8 @@
     },
     {
       "id": "airport-bangabandhu-avenue",
-      "nameEn": "Airport Bangabandhu Avenue",
-      "nameBn": "এয়ারপোর্ট বঙ্গবন্ধু এভিনিউ ট্রান্সপোর্ট",
+      "nameEn": "Airport Bangabandhu Avenue Paribahan",
+      "nameBn": "এয়ারপোর্ট বঙ্গবন্ধু এভিনিউ পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "fulbaria",
@@ -1399,7 +1469,7 @@
     },
     {
       "id": "azmeri-glory",
-      "nameEn": "Azmeri Glory",
+      "nameEn": "Azmeri Glory Limited",
       "nameBn": "আজমেরী গ্লোরী লিমিটেড",
       "area": "Dhaka",
       "stopIds": [
@@ -1440,8 +1510,8 @@
     },
     {
       "id": "akash-enterprise",
-      "nameEn": "Akash Enterprise",
-      "nameBn": "আকাশ বাস",
+      "nameEn": "Akash",
+      "nameBn": "আকাশ",
       "area": "Dhaka",
       "stopIds": [
         "kadamtali",
@@ -1508,7 +1578,7 @@
     {
       "id": "al-makka",
       "nameEn": "Al Makka",
-      "nameBn": "আল মক্কা বাস",
+      "nameBn": "আল মক্কা",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -1536,7 +1606,7 @@
     {
       "id": "al-madina-plus-one",
       "nameEn": "Al Madina Plus One",
-      "nameBn": "আল মনিদা প্লাস ওয়ান",
+      "nameBn": "আল মদিনা প্লাস ওয়ান",
       "area": "Dhaka",
       "stopIds": [
         "nandan-park",
@@ -1717,7 +1787,7 @@
     {
       "id": "arnob",
       "nameEn": "Arnob",
-      "nameBn": "অরনব বাস",
+      "nameBn": "অরনব",
       "area": "Dhaka",
       "stopIds": [
         "hemayetpur",
@@ -1744,7 +1814,7 @@
     },
     {
       "id": "ashirbad-pahibahan",
-      "nameEn": "Ashirbad Pahibahan",
+      "nameEn": "Ashirbad Paribahan",
       "nameBn": "আশীর্বাদ পরিবহন",
       "area": "Dhaka",
       "stopIds": [
@@ -1774,7 +1844,7 @@
     {
       "id": "ashulia-classic",
       "nameEn": "Ashulia Classic",
-      "nameBn": "আশুলিয়া ক্লাসিক বাস",
+      "nameBn": "আশুলিয়া ক্লাসিক",
       "area": "Dhaka",
       "stopIds": [
         "nobinagar",
@@ -1855,13 +1925,14 @@
         "paltan",
         "gpo",
         "gulistan",
-        "arambagh-notre-dame-college"
+        "arambagh-notre-dame-college",
+        "arambagh"
       ]
     },
     {
       "id": "ayat",
       "nameEn": "Ayat",
-      "nameBn": "আয়াত বাস",
+      "nameBn": "আয়াত",
       "area": "Dhaka",
       "stopIds": [
         "chiriyakhana",
@@ -2046,8 +2117,8 @@
     },
     {
       "id": "best-satabdi-ac",
-      "nameEn": "Best Satabdi AC",
-      "nameBn": "বেষ্ট শতাব্দী এসি বাস",
+      "nameEn": "Best Satabdi",
+      "nameBn": "বেষ্ট শতাব্দী",
       "area": "Dhaka",
       "stopIds": [
         "azimpur",
@@ -2143,32 +2214,22 @@
     {
       "id": "bihanga",
       "nameEn": "Bihanga",
-      "nameBn": "বিহাঙ্গা বাস",
+      "nameBn": "বিহঙ্গ",
       "area": "Dhaka",
       "stopIds": [
-        "duaripara",
-        "pallabi",
-        "purobi",
+        "mirpur-12",
         "mirpur-11",
         "mirpur-10",
-        "kajipara",
+        "kazipara",
         "shewrapara",
-        "taltola",
         "agargaon",
-        "khamar-bari",
-        "farmgate",
-        "kawran-bazar",
-        "bangla-motor",
-        "shahbag",
-        "motsho-bhaban",
-        "high-court",
-        "press-club",
-        "paltan",
-        "gpo",
-        "golap-shah-mazar",
-        "naya-bazar",
-        "ray-saheb-bazar",
-        "sadarghat"
+        "bijoy-sarani",
+        "jahangir-gate",
+        "mohakhali",
+        "wireless",
+        "gulshan-1",
+        "badda",
+        "notun-bazar"
       ]
     },
     {
@@ -2178,7 +2239,6 @@
       "area": "Dhaka",
       "stopIds": [
         "mirpur-12",
-        "pallabi",
         "purobi",
         "mirpur-11",
         "mirpur-1",
@@ -2207,7 +2267,6 @@
       "area": "Dhaka",
       "stopIds": [
         "mirpur-12",
-        "pallabi",
         "purobi",
         "mirpur-11",
         "mirpur-10",
@@ -2232,7 +2291,7 @@
     {
       "id": "bikash",
       "nameEn": "Bikash",
-      "nameBn": "বিকাশ বাস",
+      "nameBn": "বিকাশ",
       "area": "Dhaka",
       "stopIds": [
         "azimpur",
@@ -2259,7 +2318,7 @@
     {
       "id": "bikash-paribahan",
       "nameEn": "Bikash Paribahan",
-      "nameBn": "বিকাশ পরিবহন বাস",
+      "nameBn": "বিকাশ পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "sign-board",
@@ -2304,7 +2363,7 @@
     {
       "id": "bondhu-paribahan",
       "nameEn": "Bondhu Paribahan",
-      "nameBn": "বন্ধু পরিবহন বাস",
+      "nameBn": "বন্ধু পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "gulistan",
@@ -2330,12 +2389,17 @@
       "nameEn": "Borak",
       "nameBn": "বোরাক বাস",
       "area": "Dhaka",
-      "stopIds": ["palashi", "meghna-ghat"]
+      "stopIds": [
+        "palashi",
+        "chittagong-road",
+        "chashara",
+        "meghna-ghat"
+      ]
     },
     {
       "id": "bashumoti",
       "nameEn": "Bashumoti",
-      "nameBn": "বসুমতি বাস",
+      "nameBn": "বসুমতি",
       "area": "Dhaka",
       "stopIds": [
         "gazipur-chourasta",
@@ -2353,7 +2417,7 @@
     {
       "id": "brtc",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "madanpur",
@@ -2391,7 +2455,7 @@
     {
       "id": "brtc-2",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -2427,7 +2491,7 @@
     {
       "id": "brtc-3",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -2459,7 +2523,7 @@
     {
       "id": "brtc-4",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "mohammadpur",
@@ -2484,7 +2548,7 @@
     {
       "id": "brtc-5",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "kamalapur",
@@ -2517,7 +2581,7 @@
     {
       "id": "brtc-6",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "vulta",
@@ -2531,7 +2595,7 @@
     {
       "id": "brtc-7",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -2567,7 +2631,7 @@
     {
       "id": "brtc-8",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "mohammadpur",
@@ -2591,7 +2655,7 @@
     {
       "id": "brtc-9",
       "nameEn": "BRTC",
-      "nameBn": "বি আর টিসি বাস",
+      "nameBn": "বিআরটিসি",
       "area": "Dhaka",
       "stopIds": [
         "gabtoli",
@@ -2623,7 +2687,7 @@
     {
       "id": "brtc-articulated",
       "nameEn": "BRTC Articulated",
-      "nameBn": "বি আর টিসি আরটিকুলেটেড বাস",
+      "nameBn": "বিআরটিসি আর্টিকুলেটেড",
       "area": "Dhaka",
       "stopIds": [
         "balughat",
@@ -2640,7 +2704,7 @@
     {
       "id": "cantonment",
       "nameEn": "Cantonment",
-      "nameBn": "ক্যান্টনমেন্ট বাস সার্ভিস",
+      "nameBn": "ক্যান্টনমেন্ট",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-14",
@@ -2659,7 +2723,7 @@
     {
       "id": "cantonment-mini-service",
       "nameEn": "Cantonment Mini Service",
-      "nameBn": "ক্যান্টনমেন্ট  মিনি বাস সার্ভিস",
+      "nameBn": "ক্যান্টনমেন্ট মিনি সার্ভিস",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-14",
@@ -2752,7 +2816,7 @@
     {
       "id": "d-one-transport",
       "nameEn": "D One Transport",
-      "nameBn": "ডি ওয়ান বাস",
+      "nameBn": "ডি ওয়ান",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -2775,13 +2839,13 @@
         "amin-bazar",
         "nobinagar",
         "dhamrai",
-        "kalampur"
+        "kamalapur"
       ]
     },
     {
       "id": "deepan",
       "nameEn": "Deepan",
-      "nameBn": "দিপান বাস",
+      "nameBn": "দিপান",
       "area": "Dhaka",
       "stopIds": [
         "tajmahal-road",
@@ -2872,19 +2936,27 @@
       "nameEn": "Dhakar Chaka",
       "nameBn": "ঢাকার চাকা বাস",
       "area": "Dhaka",
-      "stopIds": ["police-plaza", "gulshan-1", "gulshan-2"]
+      "stopIds": [
+        "police-plaza",
+        "gulshan-1",
+        "gulshan-2"
+      ]
     },
     {
       "id": "dhakar-chaka-2",
       "nameEn": "Dhakar Chaka",
       "nameBn": "ঢাকার চাকা বাস",
       "area": "Dhaka",
-      "stopIds": ["banani", "gulshan-2", "notun-bazar"]
+      "stopIds": [
+        "banani",
+        "gulshan-2",
+        "notun-bazar"
+      ]
     },
     {
       "id": "dipon",
       "nameEn": "Dipon",
-      "nameBn": "দিপোন বাস",
+      "nameBn": "দিপন",
       "area": "Dhaka",
       "stopIds": [
         "tajmahal-road",
@@ -2928,7 +3000,7 @@
     {
       "id": "dishari",
       "nameEn": "Dishari",
-      "nameBn": "দিশারী বাস",
+      "nameBn": "দিসারি",
       "area": "Dhaka",
       "stopIds": [
         "chiriyakhana",
@@ -2977,7 +3049,7 @@
     {
       "id": "etc-transport",
       "nameEn": "ETC Transport",
-      "nameBn": "ইটিসি ট্রান্সপোর্ট বাস",
+      "nameBn": "ইটিসি ট্রান্সপোর্ট",
       "area": "Dhaka",
       "stopIds": [
         "golap-shah-mazar",
@@ -3005,7 +3077,7 @@
     {
       "id": "everest-paribahan",
       "nameEn": "Everest Paribahan",
-      "nameBn": "এভারেস্ট পরিবহন বাস",
+      "nameBn": "এভারেস্ট পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "rupnagar-abashik",
@@ -3020,7 +3092,7 @@
     {
       "id": "first-ten",
       "nameEn": "First Ten",
-      "nameBn": "ফার্স্ট টেন বাস",
+      "nameBn": "ফার্স্ট টেন",
       "area": "Dhaka",
       "stopIds": [
         "vashantek",
@@ -3037,7 +3109,7 @@
     {
       "id": "ftcl",
       "nameEn": "FTCL",
-      "nameBn": "এফটিসিএল বাস",
+      "nameBn": "এফটিসিএল",
       "area": "Dhaka",
       "stopIds": [
         "mohammadpur",
@@ -3087,7 +3159,7 @@
     {
       "id": "gazipur-paribahan",
       "nameEn": "Gazipur Paribahan",
-      "nameBn": "গাজীপুর পরিবহন বাস",
+      "nameBn": "গাজীপুর পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -3125,7 +3197,7 @@
     {
       "id": "grameen",
       "nameEn": "Grameen",
-      "nameBn": "গ্রামীণ বাস",
+      "nameBn": "গ্রামীণ",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-14",
@@ -3141,7 +3213,7 @@
     {
       "id": "green-anabil",
       "nameEn": "Green Anabil",
-      "nameBn": "গ্রীন অনাবিল বাস",
+      "nameBn": "গ্রীন অনাবিল",
       "area": "Dhaka",
       "stopIds": [
         "chashara",
@@ -3188,7 +3260,7 @@
     {
       "id": "green-dhaka",
       "nameEn": "Green Dhaka",
-      "nameBn": "গ্রীন ঢাকা বাস",
+      "nameBn": "গ্রীন ঢাকা",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -3225,18 +3297,21 @@
     {
       "id": "gulshan-chaka",
       "nameEn": "Gulshan Chaka",
-      "nameBn": "গুলশান চাকা বাস",
+      "nameBn": "গুলশান চাকা",
       "area": "Dhaka",
-      "stopIds": ["banani", "gulshan-2", "notun-bazar"]
+      "stopIds": [
+        "banani",
+        "gulshan-2",
+        "notun-bazar"
+      ]
     },
     {
       "id": "hazi-transport",
       "nameEn": "Hazi Transport",
-      "nameBn": "হাজি ট্রান্সপোর্ট বাস",
+      "nameBn": "হাজি ট্রান্সপোর্ট",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-12",
-        "pallabi",
         "purobi",
         "mirpur-10",
         "kazipara",
@@ -3316,7 +3391,7 @@
     {
       "id": "himalay",
       "nameEn": "Himalay",
-      "nameBn": "হিমালয় বাস",
+      "nameBn": "হিমালয়",
       "area": "Dhaka",
       "stopIds": [
         "madanpur",
@@ -3330,7 +3405,7 @@
     {
       "id": "itihash",
       "nameEn": "Itihash",
-      "nameBn": "ইতিহাস বাস",
+      "nameBn": "ইতিহাস",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-14",
@@ -3354,7 +3429,7 @@
     {
       "id": "jabale-noor-paribahan",
       "nameEn": "Jabale Noor Paribahan",
-      "nameBn": "জাবালে নুর পরিবহন বাস",
+      "nameBn": "জাবালে নুর পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "agargaon",
@@ -3364,7 +3439,7 @@
         "mirpur-10",
         "mirpur-11",
         "purobi",
-        "pallabi",
+        "mirpur-12",
         "kalshi",
         "kuril-bishwa-road",
         "airport",
@@ -3377,7 +3452,7 @@
     {
       "id": "jabale-noor-paribahan-2",
       "nameEn": "Jabale Noor Paribahan",
-      "nameBn": "জাবালে নুর পরিবহন বাস",
+      "nameBn": "জাবালে নুর পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "gabtoli",
@@ -3419,8 +3494,8 @@
     },
     {
       "id": "kanak",
-      "nameEn": "kanak",
-      "nameBn": "কনক বাস",
+      "nameEn": "Kanak",
+      "nameBn": "কনক",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-1",
@@ -3476,7 +3551,7 @@
     {
       "id": "kironmala-paribahan",
       "nameEn": "Kironmala Paribahan",
-      "nameBn": "কিরণমালা বাস",
+      "nameBn": "কিরণমালা",
       "area": "Dhaka",
       "stopIds": [
         "chiriyakhana",
@@ -3496,7 +3571,7 @@
     {
       "id": "labbayek",
       "nameEn": "Labbayek",
-      "nameBn": "লাব্বাইক বাস",
+      "nameBn": "লাব্বাইক",
       "area": "Dhaka",
       "stopIds": [
         "savar",
@@ -3535,7 +3610,7 @@
     {
       "id": "lal-sabuj",
       "nameEn": "Lal Sabuj",
-      "nameBn": "AC Bus Route",
+      "nameBn": "লাল সবুজ",
       "area": "Dhaka",
       "stopIds": [
         "nandan-park",
@@ -3596,7 +3671,7 @@
     {
       "id": "malancha",
       "nameEn": "Malancha",
-      "nameBn": "মালঞ্চ বাস",
+      "nameBn": "মালঞ্চ",
       "area": "Dhaka",
       "stopIds": [
         "mohammadpur",
@@ -3685,7 +3760,7 @@
     {
       "id": "meshkat",
       "nameEn": "Meshkat",
-      "nameBn": "মেসকাত বাস",
+      "nameBn": "মেসকাত",
       "area": "Dhaka",
       "stopIds": [
         "mohammadpur",
@@ -3738,7 +3813,7 @@
     {
       "id": "mirpur-metro-services",
       "nameEn": "Mirpur Metro Services",
-      "nameBn": "মিরপুর মেট্রো সার্ভিস বাস",
+      "nameBn": "মিরপুর মেট্রো সার্ভিস",
       "area": "Dhaka",
       "stopIds": [
         "azimpur",
@@ -3899,7 +3974,7 @@
     {
       "id": "mohona",
       "nameEn": "Mohona",
-      "nameBn": "মোহনা বাস",
+      "nameBn": "মোহনা",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-14",
@@ -3920,7 +3995,7 @@
     {
       "id": "moitri",
       "nameEn": "Moitri",
-      "nameBn": "মৈত্রী বাস",
+      "nameBn": "মৈত্রী",
       "area": "Dhaka",
       "stopIds": [
         "mohammadpur",
@@ -4045,8 +4120,8 @@
     },
     {
       "id": "new-vision-dhaka",
-      "nameEn": "New Vision Dhaka",
-      "nameBn": "নিউ ভিশন বাস",
+      "nameEn": "New Vision",
+      "nameBn": "নিউ ভিশন",
       "area": "Dhaka",
       "stopIds": [
         "chiriyakhana",
@@ -4072,8 +4147,8 @@
     },
     {
       "id": "nilachol-dhaka",
-      "nameEn": "Nilachol Dhaka",
-      "nameBn": "নিলাচল বাস",
+      "nameEn": "Nilachol",
+      "nameBn": "নিলাচল",
       "area": "Dhaka",
       "stopIds": [
         "chittagong-road",
@@ -4172,7 +4247,7 @@
     {
       "id": "paristhan",
       "nameEn": "Paristhan",
-      "nameBn": "পরিস্থান বাস",
+      "nameBn": "পরিস্থান",
       "area": "Dhaka",
       "stopIds": [
         "bosila",
@@ -4226,7 +4301,7 @@
     {
       "id": "prochesta",
       "nameEn": "Prochesta",
-      "nameBn": "প্রচেষ্টা বাস",
+      "nameBn": "প্রচেষ্টা",
       "area": "Dhaka",
       "stopIds": [
         "maowa",
@@ -4266,7 +4341,7 @@
     {
       "id": "projapati",
       "nameEn": "Projapati",
-      "nameBn": "প্রজাপতি বাস",
+      "nameBn": "প্রজাপতি",
       "area": "Dhaka",
       "stopIds": [
         "bosila",
@@ -4301,7 +4376,7 @@
     {
       "id": "provati-banasree",
       "nameEn": "Provati Banasree",
-      "nameBn": "প্রভাতী বনশ্রী বাস",
+      "nameBn": "প্রভাতী বনশ্রী",
       "area": "Dhaka",
       "stopIds": [
         "fulbaria",
@@ -4342,7 +4417,7 @@
     {
       "id": "purbachol-logistics-and-transport",
       "nameEn": "Purbachol Logistics and Transport",
-      "nameBn": "পূর্বাচল লজিস্টিকস বাস",
+      "nameBn": "পূর্বাচল লজিস্টিকস",
       "area": "Dhaka",
       "stopIds": [
         "vashantek",
@@ -4365,8 +4440,8 @@
     },
     {
       "id": "raida-dhaka",
-      "nameEn": "Raida Dhaka",
-      "nameBn": "রাইদা বাস",
+      "nameEn": "Raida",
+      "nameBn": "রাইদা",
       "area": "Dhaka",
       "stopIds": [
         "postagola",
@@ -4401,8 +4476,8 @@
     },
     {
       "id": "raja-city-dhaka",
-      "nameEn": "Raja City Dhaka",
-      "nameBn": "রাজা সিটি বাস",
+      "nameEn": "Raja City",
+      "nameBn": "রাজা সিটি",
       "area": "Dhaka",
       "stopIds": [
         "postagola",
@@ -4428,8 +4503,8 @@
     },
     {
       "id": "rajanigandha-dhaka",
-      "nameEn": "Rajanigandha Dhaka",
-      "nameBn": "রজনীগন্ধা বাস",
+      "nameEn": "Rajanigandha",
+      "nameBn": "রজনীগন্ধা",
       "area": "Dhaka",
       "stopIds": [
         "chittagong-road",
@@ -4456,8 +4531,8 @@
     },
     {
       "id": "rajdhani-super-dhaka",
-      "nameEn": "Rajdhani Super Dhaka",
-      "nameBn": "রাজধানী বাস",
+      "nameEn": "Rajdhani Super",
+      "nameBn": "রাজধানী",
       "area": "Dhaka",
       "stopIds": [
         "hemayetpur",
@@ -4492,8 +4567,8 @@
     },
     {
       "id": "ramjan-dhaka",
-      "nameEn": "Ramjan Dhaka",
-      "nameBn": "রমযান বাস",
+      "nameEn": "Ramjan",
+      "nameBn": "রমজান",
       "area": "Dhaka",
       "stopIds": [
         "gabtoli",
@@ -4527,8 +4602,8 @@
     },
     {
       "id": "robrob-dhaka",
-      "nameEn": "Robrob Dhaka",
-      "nameBn": "রবরব বাস",
+      "nameEn": "Robrob",
+      "nameBn": "রবরব",
       "area": "Dhaka",
       "stopIds": [
         "gabtoli",
@@ -4553,8 +4628,8 @@
     },
     {
       "id": "rupa-paribahan-dhaka",
-      "nameEn": "Rupa Paribahan Dhaka",
-      "nameBn": "রুপা পরিবহন বাস",
+      "nameEn": "Rupa Paribahan",
+      "nameBn": "রূপা পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "gabtoli",
@@ -4571,7 +4646,7 @@
     {
       "id": "safety-druti",
       "nameEn": "Safety Druti",
-      "nameBn": "সেফটি দ্রুতি বাস",
+      "nameBn": "সেফটি দ্রুতি",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-12",
@@ -4596,7 +4671,7 @@
     {
       "id": "sakalpa-transport",
       "nameEn": "Sakalpa Transport",
-      "nameBn": "স্বকল্প ট্রান্সপোর্ট বাস",
+      "nameBn": "স্বকল্প ট্রান্সপোর্ট",
       "area": "Dhaka",
       "stopIds": [
         "chiriyakhana",
@@ -4618,7 +4693,7 @@
     {
       "id": "salsabil",
       "nameEn": "Salsabil",
-      "nameBn": "ছালছাবিল বাস",
+      "nameBn": "সালসাবিল",
       "area": "Dhaka",
       "stopIds": [
         "postagola",
@@ -4751,7 +4826,7 @@
     {
       "id": "shahria-enterprise",
       "nameEn": "Shahria Enterprise",
-      "nameBn": "শাহরিয়া এন্টারপ্রাইজ বাস",
+      "nameBn": "শাহরিয়া এন্টারপ্রাইজ",
       "area": "Dhaka",
       "stopIds": [
         "gabtoli",
@@ -4785,7 +4860,7 @@
     {
       "id": "shatabdi",
       "nameEn": "Shatabdi",
-      "nameBn": "শতাব্দি বাস",
+      "nameBn": "শতাব্দী",
       "area": "Dhaka",
       "stopIds": [
         "motijheel",
@@ -4815,7 +4890,7 @@
     {
       "id": "shikhor-paribahan",
       "nameEn": "Shikhor Paribahan",
-      "nameBn": "শিকড় পরিবহন বাস",
+      "nameBn": "শিখর পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-12",
@@ -4845,7 +4920,7 @@
     {
       "id": "shikhor-paribahan-2",
       "nameEn": "Shikhor Paribahan",
-      "nameBn": "শিকড় পরিবহন বাস",
+      "nameBn": "শিখর পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "jatrabari",
@@ -4917,8 +4992,8 @@
     },
     {
       "id": "suvojatra-bus",
-      "nameEn": "Suvojatra Bus",
-      "nameBn": "শুভযাত্রা বাস",
+      "nameEn": "Suvojatri",
+      "nameBn": "শুভযাত্রী",
       "area": "Dhaka",
       "stopIds": [
         "fulbaria",
@@ -4950,7 +5025,7 @@
     {
       "id": "siam-transport",
       "nameEn": "Siam Transport",
-      "nameBn": "সিয়াম ট্রান্সপোর্ট বাস",
+      "nameBn": "সিয়াম ট্রান্সপোর্ট",
       "area": "Dhaka",
       "stopIds": [
         "banasree",
@@ -4988,7 +5063,7 @@
     {
       "id": "skyline",
       "nameEn": "Skyline",
-      "nameBn": "স্কাই লাইন বাস",
+      "nameBn": "স্কাই লাইন",
       "area": "Dhaka",
       "stopIds": [
         "sadarghat",
@@ -5028,7 +5103,7 @@
     {
       "id": "super",
       "nameEn": "Super",
-      "nameBn": "সুপার বাস",
+      "nameBn": "সুপার",
       "area": "Dhaka",
       "stopIds": [
         "gulistan",
@@ -5043,7 +5118,7 @@
     {
       "id": "supravat",
       "nameEn": "Supravat",
-      "nameBn": "সুপ্রভাত বাস",
+      "nameBn": "সুপ্রভাত",
       "area": "Dhaka",
       "stopIds": [
         "victoria-park",
@@ -5082,7 +5157,7 @@
     {
       "id": "swajan-paribahan",
       "nameEn": "Swajan Paribahan",
-      "nameBn": "স্বজন পরিবহন বাস",
+      "nameBn": "স্বজন পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "savar",
@@ -5153,7 +5228,7 @@
     {
       "id": "tanjil-paribahan",
       "nameEn": "Tanjil Paribahan",
-      "nameBn": "তানজিল পরিবহন বাস",
+      "nameBn": "তানজিল পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "chiriyakhana",
@@ -5211,7 +5286,7 @@
     {
       "id": "tetulia",
       "nameEn": "Tetulia",
-      "nameBn": "তেতুলিয়া বাস",
+      "nameBn": "তেতুলিয়া",
       "area": "Dhaka",
       "stopIds": [
         "shia-mosque",
@@ -5340,7 +5415,7 @@
     {
       "id": "transilva",
       "nameEn": "Transilva",
-      "nameBn": "ট্রান্সিল্ভা বাস",
+      "nameBn": "ট্রান্সিল্ভা",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-1",
@@ -5372,7 +5447,7 @@
     {
       "id": "trust-transport-services",
       "nameEn": "Trust Transport Services",
-      "nameBn": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
+      "nameBn": "ট্রাস্ট ট্রান্সপোর্ট সার্ভিসেস",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-10",
@@ -5386,7 +5461,7 @@
     {
       "id": "trust-transport-services-2",
       "nameEn": "Trust Transport Services",
-      "nameBn": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
+      "nameBn": "ট্রাস্ট ট্রান্সপোর্ট সার্ভিসেস",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-10",
@@ -5405,7 +5480,7 @@
     {
       "id": "trust-transport-services-3",
       "nameEn": "Trust Transport Services",
-      "nameBn": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
+      "nameBn": "ট্রাস্ট ট্রান্সপোর্ট সার্ভিসেস",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-dohs",
@@ -5430,7 +5505,7 @@
     {
       "id": "trust-transport-services-4",
       "nameEn": "Trust Transport Services",
-      "nameBn": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
+      "nameBn": "ট্রাস্ট ট্রান্সপোর্ট সার্ভিসেস",
       "area": "Dhaka",
       "stopIds": [
         "mirpur-dohs",
@@ -5448,7 +5523,7 @@
     {
       "id": "victor-classic",
       "nameEn": "Victor Classic",
-      "nameBn": "ভিক্টর ক্লাসিক বাস",
+      "nameBn": "ভিক্টর ক্লাসিক",
       "area": "Dhaka",
       "stopIds": [
         "sadarghat",
@@ -5486,7 +5561,7 @@
     {
       "id": "victor-paribahan",
       "nameEn": "Victor Paribahan",
-      "nameBn": "ভিক্টর পরিবহন বাস",
+      "nameBn": "ভিক্টর পরিবহন",
       "area": "Dhaka",
       "stopIds": [
         "sadarghat",
@@ -5517,7 +5592,7 @@
     {
       "id": "vip-27",
       "nameEn": "VIP 27",
-      "nameBn": "ভিআইপি ২৭ বাস",
+      "nameBn": "ভিআইপি ২৭",
       "area": "Dhaka",
       "stopIds": [
         "azimpur",
@@ -5547,7 +5622,7 @@
     {
       "id": "welcome",
       "nameEn": "Welcome",
-      "nameBn": "ওয়েলকাম বাস",
+      "nameBn": "ওয়েলকাম",
       "area": "Dhaka",
       "stopIds": [
         "nandan-park",
@@ -5580,7 +5655,7 @@
     {
       "id": "winner",
       "nameEn": "Winner",
-      "nameBn": "উইনার বাস",
+      "nameBn": "উইনার",
       "area": "Dhaka",
       "stopIds": [
         "azimpur",
@@ -5610,8 +5685,8 @@
     },
     {
       "id": "4-no-alike-dhaka",
-      "nameEn": "4 No. Alike Dhaka",
-      "nameBn": "৪নং বাস",
+      "nameEn": "4 No. Alike",
+      "nameBn": "৪নং",
       "area": "Dhaka",
       "stopIds": [
         "balughat",
@@ -5632,8 +5707,8 @@
     },
     {
       "id": "6-no-dhaka",
-      "nameEn": "6 No. Dhaka",
-      "nameBn": "৬নং বাস",
+      "nameEn": "6 No.",
+      "nameBn": "৬নং",
       "area": "Dhaka",
       "stopIds": [
         "kamalapur",
@@ -5658,8 +5733,8 @@
     },
     {
       "id": "6-no-motijheel-banani-transport-dhaka",
-      "nameEn": "6 No. Motijheel Banani Transport Dhaka",
-      "nameBn": "৬নং মতিঝিল বনানী ট্রান্সপোর্ট বাস",
+      "nameEn": "6 No. Motijheel Banani Transport",
+      "nameBn": "৬নং মতিঝিল বনানী ট্রান্সপোর্ট",
       "area": "Dhaka",
       "stopIds": [
         "kamalapur",
@@ -5684,8 +5759,8 @@
     },
     {
       "id": "7-no-dhaka",
-      "nameEn": "7 No. Dhaka",
-      "nameBn": "৭নং বাস",
+      "nameEn": "7 No.",
+      "nameBn": "৭নং",
       "area": "Dhaka",
       "stopIds": [
         "gabtoli",
@@ -5714,8 +5789,8 @@
     },
     {
       "id": "8-no-dhaka",
-      "nameEn": "8 No. Dhaka",
-      "nameBn": "৮নং বাস",
+      "nameEn": "8 No.",
+      "nameBn": "৮নং",
       "area": "Dhaka",
       "stopIds": [
         "jatrabari",
@@ -5739,6 +5814,442 @@
         "kallyanpur",
         "technical",
         "gabtoli"
+      ]
+    },
+    {
+      "id": "active-paribahan",
+      "nameEn": "Active Paribahan",
+      "nameBn": "এক্টিভ পরিবহন",
+      "area": "Dhaka",
+      "stopIds": [
+        "shia-mosque",
+        "adabor",
+        "shyamoli",
+        "technical",
+        "ansar-camp",
+        "mirpur-1",
+        "sony-cinema-hall",
+        "mirpur-2",
+        "mirpur-10",
+        "mirpur-11",
+        "purobi",
+        "kalshi",
+        "ecb-square",
+        "mes",
+        "shewrapara",
+        "kuril-bishwa-road",
+        "kuril-chourasta",
+        "khilkhet",
+        "airport",
+        "jashimuddin-uttara",
+        "rajlakshmi",
+        "azampur",
+        "house-building",
+        "abdullahpur"
+      ]
+    },
+    {
+      "id": "dhaka-metro-service",
+      "nameEn": "Dhaka Metro Service",
+      "nameBn": "ঢাকা মেট্রো সার্ভিস",
+      "area": "Dhaka",
+      "stopIds": [
+        "mirpur-1",
+        "ansar-camp",
+        "technical",
+        "mirpur-10",
+        "mirpur-14",
+        "kallyanpur",
+        "shyamoli",
+        "asad-gate",
+        "dhanmondi-32",
+        "shukrabad",
+        "kalabagan",
+        "science-lab",
+        "new-market",
+        "nilkhet",
+        "azimpur"
+      ]
+    },
+    {
+      "id": "j-m-super-paribahan",
+      "nameEn": "J M Super Paribahan",
+      "nameBn": "জে এম সুপার পরিবহন",
+      "area": "Dhaka",
+      "stopIds": [
+        "jatrabari",
+        "sayedabad",
+        "mugdapara",
+        "bashabo",
+        "khilgaon",
+        "malibagh-railgate",
+        "hazipara",
+        "rampura-bazar",
+        "rampura-bridge",
+        "merul",
+        "uttar-badda",
+        "shahjadpur",
+        "bashtola",
+        "notun-bazar",
+        "nadda",
+        "bashundhara",
+        "jamuna-future-park",
+        "kuril-bishwa-road",
+        "khilkhet",
+        "airport",
+        "jashimuddin-uttara",
+        "rajlakshmi",
+        "azampur",
+        "house-building",
+        "abdullahpur",
+        "tongi"
+      ]
+    },
+    {
+      "id": "mirpur-transport-service",
+      "nameEn": "Mirpur Transport Service",
+      "nameBn": "মিরপুর ট্রান্সপোর্ট সার্ভিস",
+      "area": "Dhaka",
+      "stopIds": [
+        "gulistan",
+        "golap-shah-mazar",
+        "gpo",
+        "paltan",
+        "press-club",
+        "high-court",
+        "matsya-bhaban",
+        "shahbag",
+        "bangla-motor",
+        "kawran-bazar",
+        "bot-tola",
+        "farmgate",
+        "khamar-bari",
+        "agargaon",
+        "taltola",
+        "shewrapara",
+        "kazipara",
+        "mirpur-10",
+        "mirpur-11",
+        "purobi",
+        "pallabi",
+        "mirpur-12"
+      ]
+    },
+    {
+      "id": "one-transport",
+      "nameEn": "One Transport",
+      "nameBn": "ওয়ান ট্রান্সপোর্ট",
+      "area": "Dhaka",
+      "stopIds": [
+        "nandan-park",
+        "zirani-bazar",
+        "baipayl",
+        "nobinagar",
+        "savar",
+        "hemayetpur",
+        "amin-bazar",
+        "gabtoli",
+        "technical",
+        "kallyanpur",
+        "shyamoli",
+        "shishu-mela",
+        "college-gate",
+        "asad-gate",
+        "khamar-bari",
+        "farmgate",
+        "kawran-bazar",
+        "bangla-motor",
+        "shahbag",
+        "high-court",
+        "press-club",
+        "paltan",
+        "gpo",
+        "gulistan",
+        "motijheel"
+      ]
+    },
+    {
+      "id": "pallabi-local-service",
+      "nameEn": "Pallabi Local Service",
+      "nameBn": "পল্লবী লোকাল সার্ভিস",
+      "area": "Dhaka",
+      "stopIds": [
+        "asad-gate",
+        "college-gate",
+        "shishu-mela",
+        "shyamoli",
+        "kallyanpur",
+        "technical",
+        "mirpur-1",
+        "sony-cinema-hall",
+        "mirpur-2",
+        "chalantika-mor",
+        "mirpur-6",
+        "mirpur-11",
+        "mirpur-12"
+      ]
+    },
+    {
+      "id": "power-paribahan",
+      "nameEn": "Power Paribahan",
+      "nameBn": "পাওয়ার পরিবহন",
+      "area": "Dhaka",
+      "stopIds": [
+        "mirpur-14",
+        "mirpur-10",
+        "mirpur-2",
+        "sony-cinema-hall",
+        "mirpur-1",
+        "mazar-road",
+        "konabari",
+        "rupnagar",
+        "beribadh",
+        "birulia",
+        "ashulia",
+        "zirabo",
+        "narshinghapur",
+        "sura-bari",
+        "jarun"
+      ]
+    },
+    {
+      "id": "rois",
+      "nameEn": "Rois",
+      "nameBn": "রয়েস",
+      "area": "Dhaka",
+      "stopIds": [
+        "sony-cinema-hall",
+        "mirpur-2",
+        "mirpur-10",
+        "kazipara",
+        "shewrapara",
+        "agargaon",
+        "mohakhali",
+        "abdullahpur",
+        "badda",
+        "rampura-bridge",
+        "banasree"
+      ]
+    },
+    {
+      "id": "rongdhonu-express",
+      "nameEn": "Rongdhonu Express",
+      "nameBn": "রংধনু এক্সপ্রেস",
+      "area": "Dhaka",
+      "stopIds": [
+        "adabor",
+        "mohammadpur",
+        "shia-mosque",
+        "shyamoli",
+        "college-gate",
+        "asad-gate",
+        "kalabagan",
+        "science-lab",
+        "katabon",
+        "bata-signal",
+        "shahbag",
+        "kakrail",
+        "fakirapul",
+        "motijheel",
+        "dayaganj",
+        "postagola"
+      ]
+    },
+    {
+      "id": "runway-express",
+      "nameEn": "Runway Express",
+      "nameBn": "রানওয়ে এক্সপ্রেস",
+      "area": "Dhaka",
+      "stopIds": [
+        "keraniganj",
+        "kadamtali",
+        "babubazar",
+        "naya-bazar",
+        "golap-shah-mazar",
+        "gpo",
+        "paltan",
+        "press-club",
+        "high-court",
+        "matsya-bhaban",
+        "shahbag",
+        "bangla-motor",
+        "kawran-bazar",
+        "farmgate",
+        "agargaon",
+        "shewrapara",
+        "kazipara",
+        "mirpur-10",
+        "mirpur-11",
+        "mirpur-12",
+        "ecb-square"
+      ]
+    },
+    {
+      "id": "rupkotha",
+      "nameEn": "Rupkotha",
+      "nameBn": "রূপকথা",
+      "area": "Dhaka",
+      "stopIds": [
+        "gabtoli",
+        "mirpur-1",
+        "sony-cinema-hall",
+        "mirpur-2",
+        "mirpur-10",
+        "mirpur-11",
+        "purobi",
+        "kalshi",
+        "ecb-square",
+        "mes",
+        "shewra",
+        "kuril-bishwa-road",
+        "khilkhet",
+        "airport",
+        "jashimuddin-uttara",
+        "rajlakshmi",
+        "azampur",
+        "house-building",
+        "abdullahpur"
+      ]
+    },
+    {
+      "id": "somota-paribahan",
+      "nameEn": "Somota Paribahan",
+      "nameBn": "সমতা পরিবহন",
+      "area": "Dhaka",
+      "stopIds": [
+        "chittagong-road",
+        "sign-board",
+        "matuail",
+        "rayerbag",
+        "shonir-akhra",
+        "jatrabari",
+        "sayedabad",
+        "gulistan",
+        "chankhar-pul",
+        "bakshi-bazar",
+        "dhakeshwari",
+        "azimpur",
+        "nilkhet",
+        "new-market",
+        "city-college",
+        "kalabagan",
+        "dhanmondi-32",
+        "dhanmondi-27",
+        "asad-gate",
+        "college-gate",
+        "shishu-mela",
+        "shyamoli",
+        "kallyanpur",
+        "darussalam",
+        "technical",
+        "ansar-camp",
+        "mirpur-1",
+        "rainkhola",
+        "chiriyakhana"
+      ]
+    },
+    {
+      "id": "somoy",
+      "nameEn": "Somoy",
+      "nameBn": "সময়",
+      "area": "Dhaka",
+      "stopIds": [
+        "sign-board",
+        "matuail",
+        "rayerbag",
+        "shonir-akhra",
+        "jatrabari",
+        "sayedabad",
+        "janapath-moor",
+        "gulistan",
+        "gpo",
+        "paltan",
+        "press-club",
+        "high-court",
+        "matsya-bhaban",
+        "shahbag",
+        "bangla-motor",
+        "kawran-bazar",
+        "farmgate",
+        "bijoy-sarani",
+        "agargaon",
+        "idb",
+        "taltola",
+        "shewrapara",
+        "kazipara",
+        "mirpur-10",
+        "mirpur-11",
+        "pallabi",
+        "purobi",
+        "mirpur-12"
+      ]
+    },
+    {
+      "id": "somoy-niyantran",
+      "nameEn": "Somoy Niyantran",
+      "nameBn": "সময় নিয়ন্ত্রণ",
+      "area": "Dhaka",
+      "stopIds": [
+        "mirpur-12",
+        "pallabi",
+        "purobi",
+        "mirpur-11",
+        "mirpur-10",
+        "kazipara",
+        "shewrapara",
+        "taltola",
+        "agargaon",
+        "bijoy-sarani",
+        "farmgate",
+        "kawran-bazar",
+        "bangla-motor",
+        "shahbag",
+        "matsya-bhaban",
+        "high-court",
+        "press-club",
+        "paltan",
+        "gpo",
+        "golap-shah-mazar",
+        "naya-bazar",
+        "babubazar",
+        "keraniganj"
+      ]
+    },
+    {
+      "id": "trust-transport-services-ac",
+      "nameEn": "Trust Transport Services (AC)",
+      "nameBn": "ট্রাস্ট ট্রান্সপোর্ট সার্ভিসেস (এসি)",
+      "area": "Dhaka",
+      "stopIds": [
+        "mirpur-dohs",
+        "kalshi",
+        "ecb-square",
+        "garrison-cantonment",
+        "adamjee-school",
+        "workshop",
+        "saudi-colony",
+        "jahangir-gate",
+        "farmgate",
+        "kawran-bazar"
+      ]
+    },
+    {
+      "id": "brtc-elevated-expressway",
+      "nameEn": "BRTC Elevated Expressway",
+      "nameBn": "বিআরটিসি ভায়া এলিভেটেড এক্সপ্রেসওয়ে",
+      "area": "Dhaka",
+      "stopIds": [
+        "rajlakshmi",
+        "airport",
+        "kawlar",
+        "elevated-express-way",
+        "tejgaon-college-farmgate",
+        "khejur-bagan",
+        "songsod-bhaban",
+        "elevated-express-way",
+        "kawlar",
+        "airport",
+        "rajlakshmi"
       ]
     }
   ]

@@ -34,7 +34,7 @@ export default function BusDetailView({ busId }: { busId: string }) {
           const isFirst = i === 0;
           const isLast = i === bus.stopIds.length - 1;
           return (
-            <li key={id} className="flex gap-3">
+            <li key={`${id}-${i}`} className="flex gap-3">
               <div aria-hidden className="flex flex-col items-center">
                 <span
                   className={`flex h-7 w-7 items-center justify-center rounded-full text-[12px] font-bold text-white ${
